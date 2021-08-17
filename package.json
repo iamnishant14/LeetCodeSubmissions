@@ -1,0 +1,27 @@
+{
+  "name": "leetcodesubmissions",
+  "version": "1.0.0",
+  "description": "Get LeetCode Submissions for problems  ",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "scripts": {
+    "test": "jest -u --coverage",
+    "start": "node server.js",
+    "lint": "eslint src/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamnishant14/LeetCodeSubmissions.git"
+  },
+  "author": "Nishant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamnishant14/LeetCodeSubmissions/issues"
+  },
+  "homepage": "https://github.com/iamnishant14/LeetCodeSubmissions#readme"
+}
